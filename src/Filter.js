@@ -4,7 +4,7 @@ function Filter (props) {
 
   return (
     <div>
-      <input type="text" 
+      <input id="search-bar" type="text" placeholder="Search..."
       onChange={(event)=> props.receiveFilter(event.target.value)}/>
     </div>
   )
